@@ -1,3 +1,154 @@
 INFO:__main__:Program Started at Wed, 29 May 2024 01:41:56 GMT
 INFO:Classes.league:Created Class with unique ID 0
 INFO:__main__:Program Finished at Wed, 29 May 2024 01:41:56 GMT
+INFO:__main__:Program Started at Fri, 31 May 2024 12:36:44 GMT
+INFO:__main__:Program Finished at Fri, 31 May 2024 12:36:51 GMT
+INFO:__main__:Program Started at Fri, 31 May 2024 12:37:01 GMT
+INFO:__main__:Program Finished at Fri, 31 May 2024 12:37:06 GMT
+INFO:__main__:Program Started at Fri, 31 May 2024 12:37:25 GMT
+INFO:__main__:1
+INFO:__main__:Program Finished at Fri, 31 May 2024 12:37:27 GMT
+INFO:__main__:Program Started at Fri, 31 May 2024 12:37:36 GMT
+INFO:__main__:Penis
+INFO:__main__:Program Finished at Fri, 31 May 2024 12:37:40 GMT
+INFO:__main__:Welcome complete waiting on user input
+DEBUG:__main__:Program Started at Fri, 31 May 2024 12:50:05 GMT
+INFO:__main__:Welcome complete waiting on user input
+DEBUG:__main__:User did not enter a valid number (1)
+DEBUG:__main__:User did not enter a valid number (1)
+DEBUG:__main__:--------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 12:51:01 GMT
+INFO:__main__:Welcome complete waiting on user input
+DEBUG:__main__:User did not enter a valid number (1)
+ERROR:__main__:User entered sdf this threw an error
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:13:01 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:13:03 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:13:14 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:13:16 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:13:19 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered asdfasdafs this threw an error
+INFO:__main__:User entered 1
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:13:22 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:22:56 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered cheese this threw an error
+ERROR:__main__:User entered poo this threw an error
+INFO:__main__:User entered 1
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:23:08 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:23:45 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered pop this threw an error
+ERROR:__main__:User entered asdj this threw an error
+INFO:__main__:User entered 1
+INFO:__main__:Starting 'Create League'
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:23:55 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Fri, 31 May 2024 13:24:58 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered Hello, this threw an error
+ERROR:__main__:User entered beeans, this threw an error
+ERROR:__main__:User entered 0, this was not an option
+ERROR:__main__:User entered 2, this was not an option
+INFO:__main__:User entered 1
+INFO:__main__:Starting Create League
+DEBUG:__main__:Program Finished at Fri, 31 May 2024 13:25:08 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 21:34:00 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered Yes, this threw an error
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 21:35:27 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:Program Finished at Wed, 12 Jun 2024 21:35:34 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 21:43:38 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:Program Finished at Wed, 12 Jun 2024 21:43:43 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 22:44:54 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered `, this threw an error
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:Program Finished at Wed, 12 Jun 2024 22:44:58 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 22:45:24 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 22:47:28 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:03:38 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:04:22 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:Program Finished at Wed, 12 Jun 2024 23:04:28 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:04:34 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:Program Finished at Wed, 12 Jun 2024 23:04:39 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:05:27 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered 1[3~, this threw an error
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:06:50 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+ERROR:main:User entered /usr/local/bin/python3 "/Users/cameronwhyte/Library/CloudStorage/OneDrive-AbertayUniversity/Pool Team/Tourney Director/League Builder/main.py", this threw an error
+ERROR:main:User entered /usr/local/bin/python3 "/Users/cameronwhyte/Library/CloudStorage/OneDrive-AbertayUniversity/Pool Team/Tourney Director/League Builder/main.py", this threw an error
+ERROR:main:User entered /usr/local/bin/python3 "/Users/cameronwhyte/Library/CloudStorage/OneDrive-AbertayUniversity/Pool Team/Tourney Director/League Builder/main.py", this threw an error
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Wed, 12 Jun 2024 23:08:18 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 16:27:19 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
