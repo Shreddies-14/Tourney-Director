@@ -152,3 +152,92 @@ INFO:__main__:Starting Creating a new League
 INFO:Classes.league:Created Class with unique ID 0
 INFO:Classes.league:New league builder started!
 INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:39:20 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:40:16 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:41:54 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:43:29 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:50:10 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 12 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:50:58 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:Classes.league:divisionPlayerSplit's size 1
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:53:09 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 12 for divisionCount!
+DEBUG:Classes.league:divisionPlayerSplit's size 12
+ERROR:main:User entered , this threw an error
+ERROR:main:User entered , this threw an error
+ERROR:main:User entered , this threw an error
+ERROR:main:User entered , this threw an error
+ERROR:main:User entered , this threw an error
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:55:12 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+ERROR:main:User entered /usr/local/bin/python3 "/Users/cameronwhyte/Library/CloudStorage/OneDrive-AbertayUniversity/Pool Team/Tourney Director/League Builder/main.py", this threw an error
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:55:49 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Thu, 13 Jun 2024 17:56:42 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 12 for divisionCount!
+DEBUG:__main__:Program Finished at Thu, 13 Jun 2024 17:57:05 GMT

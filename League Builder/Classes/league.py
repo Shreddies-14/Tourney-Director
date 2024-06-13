@@ -21,66 +21,89 @@ class leagueClass:
         self.id = next(self.id_iter) #Creates unique ID
         logger.info('Created Class with unique ID {}'.format(self.id))
 
+
     def new_league(self):
         #This will create a brand new league from scratch asking questions about it
         print("Welcome to the new league builder!\n")
         logger.info("New league builder started!")
 
         #Get values
-        playerCount = main.get_Valid_Integer("How many players do you have?\n")
-        divisionCount = main.get_Valid_Integer("How many divisions do you want?\n")
-        logger.info("User entered {} for playerCount and {} for divisionCount!".format(playerCount, divisionCount))
+        self.playerCount = main.get_Valid_Integer("How many players do you have?\n")
+        self.divisionCount = main.get_Valid_Integer("How many divisions do you want?\n")
+        logger.info("User entered {} for playerCount and {} for divisionCount!".format(self.playerCount, self.divisionCount))
 
+        if self.playerCount/self.divisionCount >= 2:
+            self._define_Divisions_Size() #Defines Division size and amount
 
-        #Init values
-        divisionPlayerSplit = [divisionCount]
-        playersLeft = playerCount
-        validTotalDivisionPlayerSplit = False
+                     
+#Defining Divisions Size
+    def _define_Divisions_Size(self):
+        #Init value
+        self.divisionPlayerSplit = [0] * self.divisionCount #Create array
+
+        if self.playerCount/self.divisionCount >= 2: #Check there is more than 2 per division
+            validTotalDivisionPlayerSplit = False
+
+            while(not validTotalDivisionPlayerSplit): #Loop until a user is happy with entered values
+                self._valid_Division_Splits()
+                validTotalDivisionPlayerSplit = self._confirm_Choice() #Check they are happy with entered values
+
+    def _valid_Division_Splits(self):
+        #Init Values
+        count = 0
         validDivisionPlayerSplit = True
+        playersLeft = self.playerCount
 
-        if playerCount/divisionCount >= 2: #Check there is more than 2 per division
-            while(not validTotalDivisionPlayerSplit): #Loop until a valid splits is entered
-                x = 0
+        while (count < self.divisionCount and validDivisionPlayerSplit): #Loop until all divisions are valid 
+            validDivisionPlayerSplit = self._check_PlayersLeft(playersLeft) #Confirms there is enough players left to create a division
+            playersLeft, count = self._valid_Split(playersLeft, count) #Gets a valid split amount
+            
+    def _valid_Split(self, playersLeft, valid, x):
+        #Init Values
+        valid = False
 
-                while (x < divisionCount and validDivisionPlayerSplit): #Loop until all divisions are valid 
-                    validUserInput = False
+        while (not valid): #Loop until valid split is entered
+            userDivisionSplitInput = main.get_Valid_Integer("How many people do you want in division {}? (Players left:{})\n".format(x + 1, playersLeft))
 
-                    if (playersLeft < 2): #If there is less than 2 players then a valid division cannot be created
-                        validDivisionPlayerSplit = False
-                        print("Invalid split has been entered, please retry!\n")
+            if userDivisionSplitInput <= playersLeft: #If input is a valid number
+                self.divisionPlayerSplit[x] = userDivisionSplitInput #Update split array
+                playersLeft = playersLeft - userDivisionSplitInput #Update players left
 
-                    while (not validUserInput): #Loop until valid split is entered
-                        userDivisionSplitInput = main.get_Valid_Integer("How many people do you want in division {}? (Players left:{})\n".format(x + 1, playersLeft))
+                valid = True
+                x = x + 1
 
-                        if userDivisionSplitInput <= playersLeft: #If input is a valid number
-                            
-                            divisionPlayerSplit[x] = userDivisionSplitInput
-                            playersLeft = playersLeft - userDivisionSplitInput
+            else:
+                print("Invalid Input please try again\n")
+            
+            return playersLeft, x
 
-                            validUserInput = True
-                            x = x + 1
+    def _confirm_Choice(self):
+        #Init Values
+        validConfirmation = False
 
-                        else:
-                            print("Invalid Input please try again\n")
+        for i,x in enumerate(self.divisionPlayerSplit): #Loop through all splits to confirm inputs to user
+            print("Division {} has {} players in it!\n".format(i + 1,x))
 
-                for x,i in enumerate(divisionPlayerSplit): #Loop through all splits to confirm inputs to user
-                    print("Division {} has {} players in it!\n".format(i + 1,x))
-                
-                validConfirmation = False
+        while (not validConfirmation): #Loop until valid confirmation
+            userComfirmationInput = input("If this is correct type 'YES' else type 'NO'!\n")
 
-                while (not validConfirmation): #Loop until valid confirmation
-                    userComfirmationInput = input("If this is correct type 'YES' else type 'NO'!\n")
+            if userComfirmationInput == "YES": 
+                validConfirmation = True
+                return True
 
-                    if userComfirmationInput == "YES": 
-                        validConfirmation = True
-                        validTotalDivisionPlayerSplit = True
+            elif userComfirmationInput == "NO":
+                validConfirmation = True
 
-                    elif userComfirmationInput == "NO":
-                        validConfirmation = True
+            else:
+                print("Invalid input please try again\n")
 
-                    else:
-                        print("Invalid input please try again\n")
+    def _check_PlayersLeft(self, check):
+        if (check < 2): #If there is less than 2 players then a valid division cannot be created
+                valid = False
+                print("Invalid split has been entered, please retry!\n")
 
+        else:
+            valid = True
 
-
-
+        return valid
+#Defining Divisions Size
