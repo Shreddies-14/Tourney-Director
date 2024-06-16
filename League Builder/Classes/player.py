@@ -17,3 +17,15 @@ class playerClass:
     def __init__(self):
         self.id = next(self.id_iter_player) #Creates unique ID
         logger.info('Created Player Class with unique ID {}'.format(self.id))
+
+    def set_name(self, newName):
+        self.name = newName
+
+    def set_division(self, newDivision):
+        self.division = newDivision
+
+    def get_name(self):
+        return self.name
+    
+    def get_division(self):
+        return self.division

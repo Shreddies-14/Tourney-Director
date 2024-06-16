@@ -38,8 +38,41 @@ class leagueClass:
         self.players = []
         for x in range(self.playerCount):
             self.players.append(plyr.playerClass())
-               
         
+        self._get_Player_Names()
+        self._get_Player_Division()
+
+    def _get_Player_Names(self):
+        valid = False
+
+        while (not valid):
+            try:
+                playerNamesFilePath = "ReadableFiles/" + input("Please enter the name of the file that contains player names! (File in ReadableFiles)\n")
+                playerNameFile = open(playerNamesFilePath, "r")
+                valid = True
+
+            except:
+                print("Invalid file please try again!\n")
+                valid = False
+
+        for x in range(self.playerCount):
+            self.players[x].set_name(playerNameFile.readline())
+
+    def _get_Player_Division(self):
+        valid = False
+
+        while (not valid):
+            try:
+                playerDivisionFilePath = "ReadableFiles/" + input("Please enter the name of the file that contains player division! (File in ReadableFiles)\n")
+                playerDivisionFile = open(playerDivisionFilePath, "r")
+                valid = True
+                
+            except:
+                print("Invalid file please try again!\n")
+                valid = False
+        
+        for x in range(self.playerCount):
+            self.players[x].set_division(playerDivisionFile.readline())
 
 
                      
