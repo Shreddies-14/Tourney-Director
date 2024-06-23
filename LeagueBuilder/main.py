@@ -8,6 +8,7 @@ import datetime
 import Classes.league as league
 
 
+
 logger = logging.getLogger(__name__)
 
 def main():

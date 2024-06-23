@@ -9,6 +9,8 @@ import pandas
 import main
 import Classes.player as plyr
 
+
+print(pandas.__file__)
 pandas.__version__
 
 logger = logging.getLogger(__name__)
@@ -37,41 +39,67 @@ class leagueClass:
         self.players = []
         for x in range(self.playerCount):
             self.players.append(plyr.playerClass())
+        logger.info("All players objects created")
         
         self._get_Player_Names()
         self._get_Player_Division()
+        self._create_player_list()
 
     def _get_Player_Names(self):
         valid = False
-
+        playerNamesFilePath = "LeagueBuilder/ReadableFiles/playerNames.txt"
+        playerNameFile = open(playerNamesFilePath, "r")
+        """
         while (not valid):
             try:
                 playerNamesFilePath = "LeagueBuilder/ReadableFiles/" + input("Please enter the name of the file that contains player names! (File in ReadableFiles)\n")
                 playerNameFile = open(playerNamesFilePath, "r")
                 valid = True
+                logger.info("Getting names from {}".format(playerNamesFilePath))
 
             except:
                 print("Invalid file please try again!\n")
+                logger.info("Invalid path entered for player names file: {}".format(playerNamesFilePath))
                 valid = False
-
+        """
         for x in range(self.playerCount):
-            self.players[x].set_name(playerNameFile.readline())
+            self.players[x].set_name(playerNameFile.readline().rstrip("\n"))
 
     def _get_Player_Division(self):
         valid = False
-
+        playerDivisionFilePath = "LeagueBuilder/ReadableFiles/playerDivisions.txt"
+        playerDivisionFile = open(playerDivisionFilePath, "r")
+        """
         while (not valid):
             try:
                 playerDivisionFilePath = "LeagueBuilder/ReadableFiles/" + input("Please enter the name of the file that contains player division! (File in ReadableFiles)\n")
                 playerDivisionFile = open(playerDivisionFilePath, "r")
                 valid = True
+                logger.info("Getting names from {}".format(playerDivisionFilePath))
                 
             except:
                 print("Invalid file please try again!\n")
+                logger.info("Invalid path entered for player names file: {}".format(playerDivisionFilePath))
                 valid = False
-        
+        """
         for x in range(self.playerCount):
             self.players[x].set_division(playerDivisionFile.readline())
+
+    def _create_player_list(self):
+        self.playerListDic = {
+            "ID" : [],
+            "Name" : [],
+            "Paid" : []
+            }
+        
+        for x in self.players:
+            self.playerListDic["ID"].append(x.id)
+            self.playerListDic["Name"].append(x.name)
+            self.playerListDic["Paid"].append('N')
+        
+        playerDF = pandas.DataFrame(self.playerListDic)
+
+        playerDF.to_excel("LeagueBuilder/Outputs/league.xlsx", index=False)
 
 #Defining Divisions Size
     def _get_User_Division_Size(self):
