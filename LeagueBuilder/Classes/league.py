@@ -22,7 +22,6 @@ class leagueClass:
         self.id = next(self.id_iter_league) #Creates unique ID
         logger.info('Created League Class with unique ID {}'.format(self.id))
 
-
     def new_league(self):
         #This will create a brand new league from scratch asking questions about it
         print("Welcome to the new league builder!\n")
@@ -47,7 +46,7 @@ class leagueClass:
 
         while (not valid):
             try:
-                playerNamesFilePath = "ReadableFiles/" + input("Please enter the name of the file that contains player names! (File in ReadableFiles)\n")
+                playerNamesFilePath = "LeagueBuilder/ReadableFiles/" + input("Please enter the name of the file that contains player names! (File in ReadableFiles)\n")
                 playerNameFile = open(playerNamesFilePath, "r")
                 valid = True
 
@@ -63,7 +62,7 @@ class leagueClass:
 
         while (not valid):
             try:
-                playerDivisionFilePath = "ReadableFiles/" + input("Please enter the name of the file that contains player division! (File in ReadableFiles)\n")
+                playerDivisionFilePath = "LeagueBuilder/ReadableFiles/" + input("Please enter the name of the file that contains player division! (File in ReadableFiles)\n")
                 playerDivisionFile = open(playerDivisionFilePath, "r")
                 valid = True
                 
@@ -73,9 +72,6 @@ class leagueClass:
         
         for x in range(self.playerCount):
             self.players[x].set_division(playerDivisionFile.readline())
-
-
-                     
 
 #Defining Divisions Size
     def _get_User_Division_Size(self):

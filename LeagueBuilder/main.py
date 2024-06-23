@@ -11,7 +11,7 @@ import Classes.league as league
 logger = logging.getLogger(__name__)
 
 def main():
-    logging.basicConfig(filename='League Builder/Logs/logs.log', level=logging.DEBUG)
+    logging.basicConfig(filename='LeagueBuilder/Logs/logs.log', level=logging.DEBUG)
     logger.debug("------------------------------------------------------------------------------------------------")
     logger.debug('Program Started at {}'.format(datetime.datetime.now(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S GMT')))
 

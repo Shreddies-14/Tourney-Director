@@ -465,3 +465,140 @@ INFO:Classes.player:Created Player Class with unique ID 21
 INFO:Classes.player:Created Player Class with unique ID 22
 INFO:Classes.player:Created Player Class with unique ID 23
 DEBUG:__main__:Program Finished at Sun, 16 Jun 2024 23:58:25 GMT
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Sun, 23 Jun 2024 20:54:11 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created League Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+INFO:Classes.player:Created Player Class with unique ID 0
+INFO:Classes.player:Created Player Class with unique ID 1
+INFO:Classes.player:Created Player Class with unique ID 2
+INFO:Classes.player:Created Player Class with unique ID 3
+INFO:Classes.player:Created Player Class with unique ID 4
+INFO:Classes.player:Created Player Class with unique ID 5
+INFO:Classes.player:Created Player Class with unique ID 6
+INFO:Classes.player:Created Player Class with unique ID 7
+INFO:Classes.player:Created Player Class with unique ID 8
+INFO:Classes.player:Created Player Class with unique ID 9
+INFO:Classes.player:Created Player Class with unique ID 10
+INFO:Classes.player:Created Player Class with unique ID 11
+INFO:Classes.player:Created Player Class with unique ID 12
+INFO:Classes.player:Created Player Class with unique ID 13
+INFO:Classes.player:Created Player Class with unique ID 14
+INFO:Classes.player:Created Player Class with unique ID 15
+INFO:Classes.player:Created Player Class with unique ID 16
+INFO:Classes.player:Created Player Class with unique ID 17
+INFO:Classes.player:Created Player Class with unique ID 18
+INFO:Classes.player:Created Player Class with unique ID 19
+INFO:Classes.player:Created Player Class with unique ID 20
+INFO:Classes.player:Created Player Class with unique ID 21
+INFO:Classes.player:Created Player Class with unique ID 22
+INFO:Classes.player:Created Player Class with unique ID 23
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Sun, 23 Jun 2024 20:55:34 GMT
+INFO:__main__:Welcome complete waiting on user input
+ERROR:__main__:User entered 1§, this threw an error
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created League Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+INFO:Classes.player:Created Player Class with unique ID 0
+INFO:Classes.player:Created Player Class with unique ID 1
+INFO:Classes.player:Created Player Class with unique ID 2
+INFO:Classes.player:Created Player Class with unique ID 3
+INFO:Classes.player:Created Player Class with unique ID 4
+INFO:Classes.player:Created Player Class with unique ID 5
+INFO:Classes.player:Created Player Class with unique ID 6
+INFO:Classes.player:Created Player Class with unique ID 7
+INFO:Classes.player:Created Player Class with unique ID 8
+INFO:Classes.player:Created Player Class with unique ID 9
+INFO:Classes.player:Created Player Class with unique ID 10
+INFO:Classes.player:Created Player Class with unique ID 11
+INFO:Classes.player:Created Player Class with unique ID 12
+INFO:Classes.player:Created Player Class with unique ID 13
+INFO:Classes.player:Created Player Class with unique ID 14
+INFO:Classes.player:Created Player Class with unique ID 15
+INFO:Classes.player:Created Player Class with unique ID 16
+INFO:Classes.player:Created Player Class with unique ID 17
+INFO:Classes.player:Created Player Class with unique ID 18
+INFO:Classes.player:Created Player Class with unique ID 19
+INFO:Classes.player:Created Player Class with unique ID 20
+INFO:Classes.player:Created Player Class with unique ID 21
+INFO:Classes.player:Created Player Class with unique ID 22
+INFO:Classes.player:Created Player Class with unique ID 23
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Sun, 23 Jun 2024 20:56:21 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created League Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 12 for divisionCount!
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Sun, 23 Jun 2024 20:56:34 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created League Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+INFO:Classes.player:Created Player Class with unique ID 0
+INFO:Classes.player:Created Player Class with unique ID 1
+INFO:Classes.player:Created Player Class with unique ID 2
+INFO:Classes.player:Created Player Class with unique ID 3
+INFO:Classes.player:Created Player Class with unique ID 4
+INFO:Classes.player:Created Player Class with unique ID 5
+INFO:Classes.player:Created Player Class with unique ID 6
+INFO:Classes.player:Created Player Class with unique ID 7
+INFO:Classes.player:Created Player Class with unique ID 8
+INFO:Classes.player:Created Player Class with unique ID 9
+INFO:Classes.player:Created Player Class with unique ID 10
+INFO:Classes.player:Created Player Class with unique ID 11
+INFO:Classes.player:Created Player Class with unique ID 12
+INFO:Classes.player:Created Player Class with unique ID 13
+INFO:Classes.player:Created Player Class with unique ID 14
+INFO:Classes.player:Created Player Class with unique ID 15
+INFO:Classes.player:Created Player Class with unique ID 16
+INFO:Classes.player:Created Player Class with unique ID 17
+INFO:Classes.player:Created Player Class with unique ID 18
+INFO:Classes.player:Created Player Class with unique ID 19
+INFO:Classes.player:Created Player Class with unique ID 20
+INFO:Classes.player:Created Player Class with unique ID 21
+INFO:Classes.player:Created Player Class with unique ID 22
+INFO:Classes.player:Created Player Class with unique ID 23
+DEBUG:__main__:------------------------------------------------------------------------------------------------
+DEBUG:__main__:Program Started at Sun, 23 Jun 2024 20:58:40 GMT
+INFO:__main__:Welcome complete waiting on user input
+INFO:__main__:User entered 1
+INFO:__main__:Starting Creating a new League
+INFO:Classes.league:Created League Class with unique ID 0
+INFO:Classes.league:New league builder started!
+INFO:Classes.league:User entered 24 for playerCount and 2 for divisionCount!
+INFO:Classes.player:Created Player Class with unique ID 0
+INFO:Classes.player:Created Player Class with unique ID 1
+INFO:Classes.player:Created Player Class with unique ID 2
+INFO:Classes.player:Created Player Class with unique ID 3
+INFO:Classes.player:Created Player Class with unique ID 4
+INFO:Classes.player:Created Player Class with unique ID 5
+INFO:Classes.player:Created Player Class with unique ID 6
+INFO:Classes.player:Created Player Class with unique ID 7
+INFO:Classes.player:Created Player Class with unique ID 8
+INFO:Classes.player:Created Player Class with unique ID 9
+INFO:Classes.player:Created Player Class with unique ID 10
+INFO:Classes.player:Created Player Class with unique ID 11
+INFO:Classes.player:Created Player Class with unique ID 12
+INFO:Classes.player:Created Player Class with unique ID 13
+INFO:Classes.player:Created Player Class with unique ID 14
+INFO:Classes.player:Created Player Class with unique ID 15
+INFO:Classes.player:Created Player Class with unique ID 16
+INFO:Classes.player:Created Player Class with unique ID 17
+INFO:Classes.player:Created Player Class with unique ID 18
+INFO:Classes.player:Created Player Class with unique ID 19
+INFO:Classes.player:Created Player Class with unique ID 20
+INFO:Classes.player:Created Player Class with unique ID 21
+INFO:Classes.player:Created Player Class with unique ID 22
+INFO:Classes.player:Created Player Class with unique ID 23
